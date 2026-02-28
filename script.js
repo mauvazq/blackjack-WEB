@@ -82,8 +82,6 @@ const pull = (player, playerPoints) =>{
         card = card + ".png"
         nsrc = src + card
         
-        
-        
         img = document.createElement("img")
         img.setAttribute("src", nsrc)
         img.setAttribute("class", "carta")
