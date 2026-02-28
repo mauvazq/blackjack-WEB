@@ -1,5 +1,5 @@
 body{
-    background-color: green;
+    background-color: #CDCFC0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,7 +7,7 @@ body{
 }
 
 div{
-    background-color: gray;
+    background-color: #7D9CA0;
     width: 75%;
     flex-direction: column;
     justify-content: center;
@@ -62,11 +62,12 @@ button{
   color: black;
   border-radius: 15px;
   margin: 20px;
+  box-shadow: 5px 5px 10px #595959;
 
 }
 button:hover{
     background-attachment: fixed;
-    background-color: green;
+    background-color: #A6A6A6;
     color: white;
 }
 
@@ -80,9 +81,9 @@ button:hover{
     flex-direction:row;
 }
 
-
 .carta{
     width: 100px;
     height: auto;
     margin: 5px;
+    box-shadow: 5px 5px 10px #595959;
 }
